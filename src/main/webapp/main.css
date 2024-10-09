@@ -1,0 +1,74 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h1 { 
+    color: teal; /* Màu tiêu đề h1 */
+}
+
+h2 { 
+    color: teal !important; /* Đảm bảo rằng màu này được áp dụng */
+}
+
+label {
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+
+.pad_top{
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+
+br {
+    clear: both;
+}
+
+table {
+    width: 30%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tablecart {
+    width: 30%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Màu nền tiêu đề bảng */
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none; /* Không gạch chân */
+}
+
+a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột qua liên kết */
+}
+
+br {
+    clear: both;
+}
+
+#submit {
+    margin-left: 0.5em; 
+}
